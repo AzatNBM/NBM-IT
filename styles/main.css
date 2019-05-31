@@ -600,6 +600,78 @@ body {
 
 
 
+/* ----- КАЛЬКУЛЯТОР ----- */
+
+.calculator_section {
+  height: 710px;
+}
+
+.calculator_headline_block {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.calculator_headline_block .calculator_headline h2 {
+  object-fit: contain;
+  font-family: HelveticaNeueCyr;
+  font-size: 50px;
+  letter-spacing: 0.6px;
+  color: #151515;
+  margin-bottom: 20px;
+}
+
+.calculator_headline_block .calculator_headline p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: HelveticaNeueCyr;
+}
+
+.calculator_block {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap; 
+  margin-top: 20px;
+}
+
+.calculator_block .calculator_total {
+  min-height: 500px;
+  min-width: 300px;
+  margin: auto;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+}
+
+.calculator_block .calculator_total .calculator_container {
+  width: 240px;
+  margin: auto;
+}
+
+.calculator_block .calculator_total .headline_total {  
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.calculator_block .calculator_total .headline_total .calculator_container h3 {  
+  font-family: HelveticaNeueCyr;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-align: left;
+}
+
+
+
+.calculator_block .calculator_custom {
+  width: 780px;
+}
+
+
+
+
 /* ----- КОНТАКТНАЯ ИНФОРМАЦИЯ ----- */
 
 .contact_section .contact_block {

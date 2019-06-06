@@ -1,0 +1,123 @@
+
+/* ----- Блок ПРЕДЛОЖЕНИЕ ----- */
+
+.offer_section {
+  padding-top: 70px;
+  /*background: url('images/1.png') no-repeat;
+  background-size: 100%;*/
+  background: linear-gradient(185deg, #ffffff 18%, #87CEFA 140%); 
+  & .offer_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 550px;
+    align-items: center;
+    & .offer {
+      grid-column: 1;
+      justify-self: end;
+      & h1 {
+        object-fit: contain;
+        font-family: HelveticaNeueCyr;
+        font-size: 33px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        text-align: left;
+        color: #000000;
+      }
+      & .offer_description {
+        width: 445px;
+        object-fit: contain;
+        font-family: HelveticaNeueCyr;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        text-align: left;
+        color: #96a6bb;
+      }
+    }
+    & .button_block {
+      display: flex;
+      margin-top: 49px; 
+      width: 250px;
+      align-items: center;
+      justify-content: space-between;
+      & .button_order {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 107px;
+        height: 35px;
+        object-fit: contain;
+        border-radius: 4px;
+        background-color: #0275d8;
+      }
+      & .button_order::after {
+        content: "Заказать";
+        object-fit: contain;
+        font-family: HelveticaNeueCyr;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        text-align: left;
+        color: #ffffff;
+      }
+      & .button_brif a {
+        text-decoration: none;
+        object-fit: contain;
+        font-family: HelveticaNeueCyr;
+        font-size: 17px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        text-align: left;
+        color: #005095;
+      }
+    }
+    & .logo_2 {
+      grid-column: 2;
+      justify-self: end;
+      padding-top: 50px;
+      & .big_logo {
+        width: 325px;
+        height: 325px;
+        background: url('../images/multicolor_circle.png') no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & .blue_circle {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 101px;
+          height: 101px;
+          border-radius: 50%;
+          background: linear-gradient(0deg, #ffffff -40%, #0275d8 95%); 
+          /*background: url('images/blue_circle.png') no-repeat;*/
+        }
+        & .blue_circle::after {
+          content: "NBM";
+          object-fit: contain;
+          font-family: HelveticaNeueCyr;
+          font-size: 23px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: 0.8px;
+          text-align: left;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

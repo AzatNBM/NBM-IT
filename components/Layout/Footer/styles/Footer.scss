@@ -1,0 +1,74 @@
+
+/* ----- КОНТАКТНАЯ ИНФОРМАЦИЯ ----- */
+
+.contact_section {
+	height: 630px;
+	& .contact_block {
+	  	display: grid;
+	  	grid-template-columns: 45% 30% 25%;
+	  	grid-template-rows: 220px 60%;
+	  	margin: 100px 20px 20px 20px;
+		& p, li {
+		    font-family: HelveticaNeueCyr;
+		    font-size: 18px;
+		    font-weight: normal;
+		    font-style: normal;
+		    font-stretch: normal;
+		    line-height: 1.45;
+		    letter-spacing: normal;
+		    text-align: left;
+		    color: #000000;
+		}
+		& h3 {
+		    font-family: HelveticaNeueCyr;
+		  	font-size: 23px;
+		  	line-height: 1.13;
+		  	letter-spacing: normal;
+		  	text-align: left;
+		  	color: #000000;
+		}
+		& .contact_1 {
+		  	grid-column: 1;
+		  	grid-row: 1 / 2;
+		  	width: 360px;
+			& h2 {
+			  	font-family: HelveticaNeueCyr;
+			  	font-size: 56px;
+			  	font-weight: bold;
+			  	font-style: normal;
+			  	font-stretch: normal;
+			  	line-height: 0.72;
+			  	letter-spacing: normal;
+			  	text-align: left;
+			  	color: #000000;
+			  	margin-top: 10px; 
+			}
+		}
+		& .contact_2 {
+		  	grid-column: 2;
+		  	grid-row: 1;
+		  	width: 220px;
+		}
+		& .contact_3 {
+		  	grid-column: 3;
+		  	grid-row: 1;
+		  	width: 210px;
+		}
+		& .contact_4 {
+		  	grid-column: 2 / 3;
+		  	grid-row: 2;
+		  	width: 350px;
+			& .company_requisites {
+			  	display: table;
+			  	margin-top: 50px;
+				& ul {
+				  	display: table-row;
+				}
+				& li {
+				  	display: table-cell;
+				  	padding-right: 10px;
+				}
+			}
+		}
+	}
+}

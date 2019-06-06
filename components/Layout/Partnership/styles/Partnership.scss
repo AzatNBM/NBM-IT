@@ -1,0 +1,138 @@
+/* ----- Блок СОТРУДНИЧЕСТВО ----- */
+
+.partnership_container .partnership_block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 50px; 
+  & .partnership_1 h2, .partnership_3 h2 {
+    object-fit: contain;
+    font-family: HelveticaNeueCyr;
+    font-size: 38px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  & .partnership_1 p, .partnership_3 p {
+    object-fit: contain;
+    font-family: HelveticaNeueCyr;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    color: #151515;
+    margin-top: 0px;
+  }
+  & .partnership_3 h2, .partnership_3 p {
+    text-align: right;
+  }
+  & .partnership_1 {
+    grid-column: 1;
+    grid-row: 1;
+    width: 400px;
+    position: relative;
+    top: 20px;
+    left: 0;
+  }
+  & .partnership_2 {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    & .partners {
+      height: 300px;
+      width: 420px;
+      position: relative;
+      & .partner {
+        position: absolute;
+      }
+      & .partner_1 {
+        left: 10px;
+        top: 30px;
+      }
+      & .partner_2 {
+        right: 0px;
+        top: 90px;
+      }
+      & .partner_3 {
+        left: 25px;
+        bottom: 50px;
+      }
+      & .partner_4 {
+        left: 180px;
+      }
+      & .partner_5 {
+        right: 26px;
+        bottom: 0px;
+      }
+      & .partner_6 {
+        left: 167px;
+        bottom: 85px;
+      }
+    }
+  }
+  & .partnership_3 {
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    & .description {
+      position: absolute;
+      width: 350px;
+      right: 30px;
+      top: 20px;
+    }
+  }
+  & .partnership_4 {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 330px;
+    & .technologies {
+      height: 300px;
+      width: 370px;
+      position: relative;
+      & .technology {
+        position: absolute;
+        text-align: center;
+        & p {
+          margin-top: 5px;
+          object-fit: contain;
+          font-family: HelveticaNeueCyr;
+          font-size: 16px;
+          letter-spacing: 0.6px;
+          color: #151515;
+        }
+      }
+      & .technology_1 {
+        left: 100px;
+        top: 0px;
+      }
+      & .technology_2 {
+        left: 0px;
+        top: 120px;
+      }
+      & .technology_3 {
+        right: 140px;
+        top: 150px;
+        text-align: center;
+      }
+      & .technology_4 {
+        right: 14px;
+        top: 55px;
+      }
+      & .technology_5 {
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+
+/* ----- HEADER ----- */
+
+.page_header {
+  position: fixed; 
+  z-index: 99;
+  width: 100%;
+  background-color: #ffffff;
+  
+  & .header_block {
+  	display: grid;
+  	grid-template-columns: 1fr 1fr; 
+
+    & .logo {
+    	grid-column: 1;
+    }
+    & .header_menu {
+    	grid-column: 2;
+      align-self: center;
+      justify-self: end;
+    }
+
+    & .header_menu a {
+    	text-decoration: none;
+    	padding-left: 10px;
+    	object-fit: contain;
+      font-family: HelveticaNeueCyr;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.6px;
+      text-align: left;
+      color: #000000;
+    }
+  }
+}

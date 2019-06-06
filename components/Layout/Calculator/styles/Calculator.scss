@@ -1,0 +1,181 @@
+
+/* ----- Блок ПРОДВИЖЕНИЕ ----- */
+
+.promotion_section {
+  /*background: url('images/13.png'); */
+  background: linear-gradient(90deg, #ed7738, #e45d29);
+  height: 500px;
+  width: 100%;
+  position: relative;
+  & .airplane_and_logo {
+    &.logo_3 {
+      display: flex;
+      justify-content: center;
+      font-size: 30px;
+      padding-right: 100px;
+    }
+    & .airplane_img {
+      position: absolute;
+      top: 30px;
+      right: 150px;
+      width: 350px;
+      height: 250px;
+      background: url('../images/14.png') no-repeat;
+      background-size: 100%; 
+    }
+  }
+  & .promotion_block {
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    & .promotion_1 {
+      grid-column: 1;
+      padding-top: 40px;
+      & h2 {
+        object-fit: contain;
+        font-family: HelveticaNeueCyr;
+        font-size: 36px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 1.4px;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        height: 75px;
+        & span {
+          object-fit: contain;
+          opacity: 0.36;
+          font-family: HelveticaNeueCyr;
+          font-size: 40px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: 1.5px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      & .button_promo  {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          object-fit: contain;
+          border-radius: 2px;
+          background-color: rgba(255, 255, 255, 0.36);
+          width: 104px;
+          height: 27px;
+          margin: auto;
+        }
+      & .button_promo::before {
+          content: "Заказать";
+          text-transform: uppercase;
+          object-fit: contain;
+          font-family: HelveticaNeueCyr;
+          font-size: 12px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 0.58;
+          letter-spacing: 0.4px;
+          color: #ffffff;
+        }
+      }
+    }
+    & .promotion_2 {
+      grid-column: 2;
+      width: 350px;
+      padding: 20px 0 0 120px;
+      & .image_promo {
+        display: flex;
+        width: 350px;
+        height: 20px;
+        background-color: #ffffff;
+        border-radius: 2px 2px 0 0;
+        & .grey_circle { 
+          border-radius: 1px;
+          width: 5px;
+          height: 5px;
+          background-color: #D3D3D3;
+          margin-top: 8px;
+          margin-left: 5px;
+          opacity: 0.8;
+        }
+        & .grey_circle:first-child {
+          margin-left: 8px;
+        } 
+      }
+      & .image_aero {
+        width: 350px;
+        height: 230px;
+        background: url('../images/21.png') no-repeat;
+        background-size: 100%; 
+      }
+      & .block_promo {
+        display: grid;
+        grid-template-columns: 55% 45%;
+        grid-template-rows: 35% 75%;
+        & h3 {
+          grid-column: 1;
+          object-fit: contain;
+          font-family: HelveticaNeueCyr;
+          font-size: 18px;
+          font-weight: 500;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 0;
+          letter-spacing: 0.7px;
+          text-align: left;
+          color: #ffffff;
+        }
+        & h4 {
+          grid-column: 2;
+          grid-row: 1;
+          object-fit: contain;
+          opacity: 0.8;
+          font-family: HelveticaNeueCyr;
+          font-size: 15px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          letter-spacing: 0.5px;
+          color: rgba(255, 255, 255, 0.66);
+          line-height: 0;
+        }
+        & p.promo_description {
+          grid-column: 2;
+          grid-row: 2;
+          height: 41px;
+          margin-top: 0;
+          object-fit: contain;
+          font-family: HelveticaNeueCyr;
+          font-size: 12px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: 0.4px;
+          color: #ffffff;
+          padding-top: 0;
+        }
+      }
+    }
+    & .promotion_3 {
+      padding: 110px 0 0 20px;
+      & .arrow_img {
+        background: url('../images/arrow-1.png') no-repeat 50% 50%;
+        width: 38px;
+        height: 38px;
+      }
+      & .arrow_background {
+        border-radius: 50%;
+        object-fit: contain;
+        opacity: 0.21;
+        background-color: #ffffff;
+        width: 38px;
+        height: 38px;
+      }
+    }
+  }
+}

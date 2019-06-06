@@ -21,16 +21,18 @@ class Header extends Component {
 								<div className="button_promo"></div>
 						</div>
 						<div className="promotion_2">
-							<div className="image_promo">
-								<div className="grey_circle"></div>
-								<div className="grey_circle"></div>
-								<div className="grey_circle"></div>
-							</div>
-							<div className="image_aero"></div>
-							<div className="block_promo">
-								<h3>Аэропарковка</h3>
-								<h4>интернет-сервис</h4>
-								<p className="promo_description">сервис по бронированию крытой парковки рядом с аэропортом Пулково</p>
+							<div className="promotion_2_container">
+								<div className="image_promo">
+									<div className="grey_circle"></div>
+									<div className="grey_circle"></div>
+									<div className="grey_circle"></div>
+								</div>
+								<div className="image_aero"></div>
+								<div className="block_promo">
+									<h3>Аэропарковка</h3>
+									<h4>интернет-сервис</h4>
+									<p className="promo_description">сервис по бронированию крытой парковки рядом с аэропортом Пулково</p>
+								</div>
 							</div>
 						</div>
 						<div className="promotion_3">

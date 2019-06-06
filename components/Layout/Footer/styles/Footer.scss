@@ -4,8 +4,9 @@
 .contact_section {
 	height: 630px;
 	& .contact_block {
+		width: 96%;
 	  	display: grid;
-	  	grid-template-columns: 45% 30% 25%;
+	  	grid-template-columns: 48% 32% 20%;
 	  	grid-template-rows: 220px 60%;
 	  	margin: 100px 20px 20px 20px;
 		& p, li {

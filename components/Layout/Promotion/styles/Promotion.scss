@@ -13,6 +13,7 @@
       justify-content: center;
       font-size: 30px;
       padding-right: 100px;
+      // background: url('../images/logo_4.png') no-repeat;
     }
     & .airplane_img {
       position: absolute;
@@ -69,7 +70,6 @@
         
       }
       & .button_promo:hover  {
-        opacity: 0.9;
         box-shadow: 0 0 25px -15px #ffffff;
       }
       & .button_promo::before {

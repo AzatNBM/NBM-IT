@@ -22,12 +22,14 @@ class Header extends Component {
 						</div>
 						<div className="promotion_2">
 							<div className="promotion_2_container">
-								<div className="image_promo">
-									<div className="grey_circle"></div>
-									<div className="grey_circle"></div>
-									<div className="grey_circle"></div>
+								<div className="image_promo_container">
+									<div className="image_promo">
+										<div className="grey_circle"></div>
+										<div className="grey_circle"></div>
+										<div className="grey_circle"></div>
+									</div>
+									<div className="image_aero"></div>
 								</div>
-								<div className="image_aero"></div>
 								<div className="block_promo">
 									<h3>Аэропарковка</h3>
 									<h4>интернет-сервис</h4>

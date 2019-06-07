@@ -1,4 +1,3 @@
-
 /* ----- Блок ПРОДВИЖЕНИЕ ----- */
 
 .promotion_section {
@@ -62,11 +61,16 @@
         justify-content: center;
         align-items: center;
         object-fit: contain;
-        border-radius: 2px;
+        border-radius: 3px;
         background-color: rgba(255, 255, 255, 0.36);
         width: 104px;
-        height: 27px;
+        height: 32px;
         margin: 40px auto;
+        
+      }
+      & .button_promo:hover  {
+        opacity: 0.9;
+        box-shadow: 0 0 25px -15px #ffffff;
       }
       & .button_promo::before {
           content: "Заказать";
@@ -80,8 +84,9 @@
           line-height: 0.58;
           letter-spacing: 0.4px;
           color: #ffffff;
-        }
+          padding-top: 1px;
       }
+    }
     & .promotion_2 {
       grid-column: 2;
       display: flex;
@@ -89,30 +94,33 @@
       & .promotion_2_container {
         margin-top: 10px;
         width: 350px;
-        & .image_promo {
-          display: flex;
-          width: 350px;
-          height: 20px;
-          background-color: #ffffff;
-          border-radius: 2px 2px 0 0;
-          & .grey_circle { 
-            border-radius: 1px;
-            width: 5px;
-            height: 5px;
-            background-color: #D3D3D3;
-            margin-top: 8px;
-            margin-left: 5px;
-            opacity: 0.8;
+        & .image_promo_container {
+          box-shadow: 0 0 50px -15px #883412;
+          & .image_promo {
+            display: flex;
+            width: 350px;
+            height: 20px;
+            background-color: #ffffff;
+            border-radius: 2px 2px 0 0;
+            & .grey_circle { 
+              border-radius: 1px;
+              width: 5px;
+              height: 5px;
+              background-color: #D3D3D3;
+              margin-top: 8px;
+              margin-left: 5px;
+              opacity: 0.8;
+            }
+            & .grey_circle:first-child {
+              margin-left: 8px;
+            } 
           }
-          & .grey_circle:first-child {
-            margin-left: 8px;
-          } 
-        }
-        & .image_aero {
-          width: 350px;
-          height: 230px;
-          background: url('../images/aeroparking.png') no-repeat;
-          background-size: 100%; 
+          & .image_aero {
+            width: 350px;
+            height: 226px;
+            background: url('../images/aeroparking.png') no-repeat;
+            background-size: 100%; 
+          }
         }
         & .block_promo {
           display: grid;
@@ -181,6 +189,9 @@
         background-color: #ffffff;
         width: 38px;
         height: 38px;
+      }
+      & .arrow_background:hover {
+        opacity: 0.3;
       }
     }
   }

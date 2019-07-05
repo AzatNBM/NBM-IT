@@ -9,8 +9,8 @@ class Header extends Component {
 			<section className="promotion_section">
 				<div className="container">
 					<div className="airplane_and_logo">
-						<div className="logo_3">
-							<p>NBM-Logo</p>
+						<div className="logo_container">
+							<div className="logo_3"></div>
 						</div>
 						<div className="airplane_img">
 						</div>
@@ -39,7 +39,11 @@ class Header extends Component {
 						</div>
 						<div className="promotion_3">
 							<div className="arrow_img">
-								<div className="arrow_background"></div>
+								<div className="arrow_background">
+								<svg width="38" height="38">
+								  <circle class="path" r="19" cx="50%" cy="50%" fill="none" stroke="#ffffff"></circle>
+								</svg>
+								</div>
 							</div>
 						</div>
 					</div>
